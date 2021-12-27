@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>PlanningCenter.Net</PackageId>
+    <Product>PlanningCenter.Net</Product>
+    <Title>PlanningCenter.Net</Title>
+    <Description>A .NET Wrapper for Planning Center API</Description>
+    <Summary>A fast, thin, and intuitive .NET Wrapper for the Planning Center API.</Summary>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestEase" />
+  </ItemGroup>
+</Project>
